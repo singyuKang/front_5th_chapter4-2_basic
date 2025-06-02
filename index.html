@@ -77,28 +77,28 @@
     </header>
 
     <section class="hero">
-      <img
-        class="desktop"
-        src="images/Hero_Desktop.webp"
-        width="900"
-        height="600"
-        alt="Hero Desktop"
-      />
-      <img
-        class="mobile"
-        src="images/Hero_Mobile.webp"
-        width="500"
-        height="500"
-        alt="Hero Mobile"
-        media="(max-width: 500px)"
-      />
-      <img
-        class="tablet"
-        src="images/Hero_Tablet.webp"
-        width="900"
-        height="800"
-        alt="Hero Tablet"
-      />
+      <picture>
+        <source
+          media="(max-width: 576px)"
+          width="500"
+          height="500"
+          srcset="images/Hero_Mobile.webp"
+        />
+        <source
+          media="(min-width: 577px) and (max-width: 960px)"
+          width="900"
+          height="800"
+          srcset="images/Hero_Tablet.webp"
+        />
+        <img
+          src="images/Hero_Desktop.webp"
+          width="900"
+          height="600"
+          alt="Hero Desktop"
+          fetchpriority="high"
+          loading="eager"
+        />
+      </picture>
 
       <div class="hero-content">
         <div class="container">

@@ -128,11 +128,6 @@ section.hero img {
   width: 100%;
   height: auto;
   filter: brightness(50%);
-  display: none;
-}
-
-section.hero img.desktop {
-  display: initial;
 }
 
 .hero-content {
@@ -203,10 +198,6 @@ section.country-bar {
   flex-direction: column;
   height: 60px;
   background-color: #f2f2f2;
-}
-
-section.country-bar.hidden {
-  display: none;
 }
 
 section.best-sellers {
@@ -482,8 +473,8 @@ footer .copyright-text {
 }
 
 /* **********************************
-******  CSS MEDIA QUERIES ********* 
-************************************/
+  ******  CSS MEDIA QUERIES ********* 
+  ************************************/
 
 /* Start of Design for Tablets */
 @media screen and (max-width: 960px) {
@@ -501,14 +492,6 @@ footer .copyright-text {
 
   header nav ul li.menu-icon {
     display: inline-block;
-  }
-
-  section.hero img.desktop {
-    display: none;
-  }
-
-  section.hero img.tablet {
-    display: initial;
   }
 
   .hero-content h1 {
@@ -641,14 +624,6 @@ footer .copyright-text {
   header .logo .blue-dot {
     width: 7px;
     height: 7px;
-  }
-
-  section.hero img.tablet {
-    display: none;
-  }
-
-  section.hero img.mobile {
-    display: initial;
   }
 
   .hero-content {
