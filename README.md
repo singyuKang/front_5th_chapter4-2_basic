@@ -56,7 +56,7 @@ http://localhost:8000/page2.html
 이때 CORS 정책에 의해 리소스 요청이 차단되어 에러가 발생합니다.
 
 ## 과제 초기 성능
-<img width="716" alt="스크린샷 2025-06-02 오전 1 19 14" src="https://github.com/user-attachments/assets/e5ab8a66-284a-4483-a170-a68e927a8397" />
+<img width="716" height="655" alt="Image" src="https://github.com/user-attachments/assets/6641aecc-456e-4d70-98ab-95d118542261" />
 
 <h3>🎯 Lighthouse 점수</h3>
 
@@ -98,7 +98,8 @@ CLS | Cumulative Layout Shift | 0.011 | 🟢
 
 **WebP**는 더 작은 용량으로 비슷한 이미지 품질을 유지할 수 있어 페이지 로딩 속도 향상!
 
-<img width="580" alt="스크린샷 2025-06-02 오전 2 33 00" src="https://github.com/user-attachments/assets/4d9c1d88-4bb3-4301-84c4-7f245a3a9b25" />
+<img width="580" height="565" alt="Image" src="https://github.com/user-attachments/assets/9bd05cec-4b54-4586-9ab3-8ab64e1e71cb" />
+
 
 ### 성능 개선 결과
 
@@ -117,7 +118,7 @@ Lighthouse 성능 점수: **81점 → 96점**으로 상승
 
 ## 폰트 최적화 
 
-<img width="202" alt="스크린샷 2025-06-06 오전 12 43 49" src="https://github.com/user-attachments/assets/8ad7800b-ae28-491b-b048-ceca9c9aaa83" />
+<img width="202" height="177" alt="Image" src="https://github.com/user-attachments/assets/700fb4a6-0926-4c48-86f1-9c6edc130768" />
 
 ```javascript
 @font-face {
@@ -236,7 +237,7 @@ section.hero img.tablet {
 ```
 defer 속성 추가로 HTML 파싱이 끝난 후 스크립트를 실행하도록 변경 -> 초기 화면 표시 속도 개선
 
-<img width="767" alt="스크린샷 2025-06-02 오후 10 20 44" src="https://github.com/user-attachments/assets/da759dea-f880-42f5-9434-3479238b4ce4" />
+<img width="767" height="672" alt="Image" src="https://github.com/user-attachments/assets/105fc462-3199-4b5e-81f0-5c06cb90ec65" />
 
 ### 📊 Core Web Vitals (2024)
 | 메트릭 | 설명 | 측정값 | 상태 |
@@ -272,14 +273,14 @@ defer 속성 추가로 HTML 파싱이 끝난 후 스크립트를 실행하도록
 ## Lighthouse & PageSpeed Insight 측정 결과
 
 ###  Local 환경 – Lighthouse 측정 결과
-<img width="767" alt="Local Lighthouse" src="https://github.com/user-attachments/assets/da14607d-5d11-4c2d-b3cb-bbf96b98d4b7" />
+<img width="767" height="672" alt="Image" src="https://github.com/user-attachments/assets/95e3131a-34f1-42db-9236-76f3b38ddab2" />
 로컬 환경에서 Chrome DevTools의 Lighthouse로 성능 측정
 
 ### Local 환경 – PageSpeed Insight 결과
-<img width="1163" alt="스크린샷 2025-06-02 오후 11 53 06" src="https://github.com/user-attachments/assets/438d3fd4-19d0-4809-9249-34eff15e2c4f" />
+<img width="1163" height="666" alt="Image" src="https://github.com/user-attachments/assets/12cbc378-1adf-42d4-a600-db0b785bdf9a" />
 
 ### 배포 환경 – PageSpeed Insight 결과
-<img width="1066" alt="스크린샷 2025-06-02 오후 11 56 45" src="https://github.com/user-attachments/assets/d57fa96d-4e13-47ad-8ca1-6e1f0fdb0888" />
+<img width="1066" height="638" alt="Image" src="https://github.com/user-attachments/assets/c7f141fa-53b7-41b5-a67d-a430fb14d134" />
 
 
 
